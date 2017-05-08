@@ -1,0 +1,600 @@
+*{
+	font-family: 微软雅黑;
+	/*font-family:Cambria;*/
+	margin:0px;
+	padding:0px;
+	font-size: 14px;
+}
+h1{
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: #888;
+}
+body{
+	background: #F9F9F9;
+}
+.top{
+	height: 26px;
+	background: #F2F2F2;
+}
+.main{
+	width: 1200px;
+	margin:0 auto;
+	line-height: 26px;
+	color: #888;
+}
+.main-left{
+	float: left;
+}
+.main-right{
+	float: right;
+}
+.main-right .ceo{
+	color: #c00;
+}
+.main-right .shouji{
+	background: #c00;
+	color: #fff;
+	padding: 0 5px;
+	border-radius: 5px;
+}
+.main-left span,.main-left a{
+	margin-right: 5px;
+}
+.main-right span,.main-right a{
+	margin-left: 5px;
+}
+.banner{
+	width:1366px;
+	overflow:hidden;
+}
+.banner img{
+	display:block;
+	margin-left: -300px;
+}
+
+.header{
+	height: 125px;
+	background: rgb(255,255,255);/*没有加背景图片*/
+
+}
+
+.logo{
+	float: left;
+	margin-top: 30px;
+}
+
+.adv{
+	float: left;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.youhui{
+	float: right;
+	height: 65px;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+
+.ppt{
+	height: 50px;
+	width: 1200px;
+	margin:0 auto;
+	/*background: #900;*/
+	background:#CE171F;
+
+}
+
+
+/*左侧导航*/
+.ppt .div1{
+	height: 50px;
+	overflow: hidden;
+	background: #CE171F;
+	/*color: #fff;*/
+}
+.ppt .div1 ul{
+	width: 1200px;
+	margin:0 auto;
+	list-style: none;/*去掉小黑点*/
+}
+
+.ppt .div1 ul li{
+	padding-top: 4px;
+	padding-left:40px;
+	font-weight: bold;
+	font-size: 20px;
+	float: left;/*浮动*/
+	line-height: 40px; /*文字向下移动40px;*/
+	margin-left:40px;/*文字间距15px;*/
+	cursor: pointer;
+	color: #fff;
+}
+
+.ppt .banner{
+	background: #ce171f;
+	width: 150px;
+	text-align: center;/*文字剧中‘全部商品’*/
+	margin-left: 0px!important;/*!important提高优先级*/
+}
+.ppt .div2{
+	width: 1200px;
+	height: 470px;
+	/*background: #ccc;*/
+	margin:0 auto;
+	/*opacity: 0.2;/*透明度；*/
+	position: relative;
+	/*overflow-x: hidden;/*x轴上不让超出不出现滚动条*/*/
+}
+
+body{
+	overflow-x: hidden;/*x轴上不让超出不出现滚动条*/
+}
+
+.ppt .div3{
+	/*width: 200px;*/
+	width: 100%;
+	height: 360px;
+	background: #fff;
+	border-left: 1px solid #ccc;
+	border-bottom:1px solid #ccc; /*整个来个右下角边框1px颜色灰色*/
+}
+.ppt .div3 ul{
+	list-style: none;/*去掉前面的小点*/
+}
+.ppt .div3 ul li{
+	color:#EB1F1E;
+	font-weight: bold;
+	/*font-size: 15px;*/
+	padding-left: 40px;/*向右移动15px*/
+	line-height: 39px;/*字与字的行高20px*/
+	border-bottom: 1px solid #ccc;
+}
+.ppt .div3 ul li:last-child{
+	
+	padding-left: 40px;/*向右移动15px*/
+	line-height: 39px;/*字与字的行高20px*/
+	border-bottom: none;
+}
+
+
+}
+.ppt .div3 ul li:hover{/*鼠标一划变成白色；*/
+	/*background: #ecc;*/
+	cursor:pointer;/*鼠标一划变成小手*/
+	/*color:#b61d1d;*/
+}
+
+.ppt .right{
+	width: 400px;
+	height: 360px;
+	background: #eee;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	/*padding: 15px;*/
+	color: #000;
+	display: none;
+	z-index: 2;
+}
+.ppt .info{
+	width: 1200px;
+	background: #ccc;
+	margin:0 auto;
+}
+
+
+/*幻灯片样式*/
+.main .carousel{
+	height: 360px;
+	width: 950px;
+	float: right;
+	background: #aaf;
+}
+
+
+.main .carousel{
+	position: relative;
+}
+.main .carousel .window {
+	height:360px;
+	width: 950px;
+	overflow: hidden;
+	position: relative;	
+}
+.main .carousel .image_reel{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+}
+.main .carousel .image_reel img{
+	float:left;
+}
+.main .carousel .paging {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	bottom: 0px;
+	right: 50%;
+	margin-right: -75px;
+	z-index: 1px;
+	text-align: center;
+	line-height: 40px;
+	/*display: none;*/
+}
+.main .carousel .paging a{
+	padding:0px 0px;
+	text-decoration: none;
+	color: #FF3D00;
+}
+.main .carousel .paging a.active{
+	font-weight: bold;
+
+}
+.main .carousel .paging a:hover{
+	font-weight: #FF3D00;
+}
+.main .carousel .paging a{
+	border-radius: 70%;
+}
+
+/*右侧导航*/
+
+.right-ads img{
+	display: block;
+}
+
+.nav1{
+	/*display: inline-block;//小图片宽高*/
+	width: 14px;
+	height:20px;
+	margin-right: 10px;
+	vertical-align:middle;
+}
+
+
+
+.menu .div3 li.left-menu:hover{
+	border-left: 2px solid #E0E0E0;
+	cursor:pointer;/*鼠标一划变成小手*/
+
+}
+
+.ppt .div3 .right-left{
+	width:400px;
+	height:360px;
+	padding-right:  20px;/*拉开距离*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: left;
+	background: #fff;
+	position: relative;
+}
+.ppt .div3 .right-left .active{
+		margin-right: 30px;
+
+
+}
+.ppt .div3 .right-left a{
+		margin-right: 10px;
+}
+.ppt .div3 .right-left .menuBottom{
+		background: #eee;
+		width:100px;
+		height:360px;
+		float: left;
+		position:absolute;
+		z-index: 2;
+}
+.ppt .div3 .right-left .menuItemTitle{
+	float: left;
+	width: 100px;
+	text-align: center;
+	
+}
+.ppt .div3 .right-left .menuItemCon{
+	float:left;
+	width: 280px;
+	border-bottom: 1px dotted  #ccc;/*家线条和颜色*/
+	margin-left: 40px;
+
+}
+.ppt .div3 .right-left .menuItemCon a{
+	display:inline-block;
+}
+.ppt .div3 .right-left .menuRight{
+	position: absolute;
+	z-index: 3;
+}
+.ppt .div3 .right-right{
+	width:220px;
+	height:360px;
+	float: left;
+}
+
+.ppt .div3 .right-right img{
+	display: block; /*防边距5px*/
+	
+}
+.content{
+	margin-top: 10px;
+}
+.indexTabBox{
+	float: left;
+	height: 500px;
+	width: 920px;
+	/*background: #ccc;*/
+}
+
+.indexTabSize{
+	float:left;
+	/*padding-right:20px;*/
+}
+.indexTabCon ul li{
+	margin-right:40px;
+}
+.indexTabBoxTop{
+	height: 41px;
+	/*background: #faa;*/
+}
+
+.indexTabBoxBottom{
+	height: 460px;
+	background: #fff;
+}
+
+.indexTabBoxBottom .indexTabCon{
+	width: 910px;
+	/*height: 442px;*/
+	padding-top:50px;
+	margin:0px 4px;
+	padding: 10px 0px;
+	display: none;/*隐藏*/
+
+}
+
+.indexTabBoxBottom .indexTabCon ul{
+	list-style: none;/*去掉小点*/
+
+}
+
+.indexTabBoxBottom .indexTabCon ul li{
+	float: left;
+	width:182px;
+	margin-top: 30px;
+
+}
+
+.indexTabBoxBottom .indexTabCon .indexTabPic{
+	text-align: center;
+	position: relative;
+	width: 160px;
+	padding: 0 11px;
+}
+
+
+.indexTabBoxBottom .indexTabTit{
+	width: 190px;
+	height: 35px;
+	line-height: 18px;
+	white-space: nowrap;/*变成一行*/
+	overflow: hidden;
+	text-align: center;
+	margin-left:5px;
+	/*//text-overflow:ellipsis;/*变成小...*/*/
+	
+}
+.indexTabBoxBottom .indexTabTit a{
+	font-size: 18px;
+}
+
+.indexTabBoxBottom .buy{
+	color:#f33511;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left:90px;
+}
+
+.indexTabBoxBottom .indexTabPrice{
+	color: #f33511;
+	font-size: 16px;
+	padding-left:120px;
+	padding-top:10px;
+	font-weight: bold;
+}
+
+.indexTabBoxTop ul{
+	list-style: none;/*去掉小点*/
+}
+
+.indexTabBoxTop ul li{
+	float: left;
+	width: 203px;
+	line-height: 38px; /*行高38px;*/
+	color: #666;
+	font-size: 16px;
+	text-align: center;/*文字居中*/
+	background: #f9f9f9;
+	border: 1px solid #ececec;/*边框*/
+	border-top-width: 2px; /*顶部边框*/
+}
+
+.indexTabBoxTop ul li.active{
+	background: #fff;
+	cursor: pointer;/*变小手*/
+	color: #c00;
+	border-top-color: #c00;/*边框颜色*/
+}
+
+.indexTabBoxTop .n5{
+	width: 178px;
+}
+
+.indexTabRight{
+	float: right;
+	height: 500px;
+	width: 270px;
+}
+
+
+/*indexTabNew ---unset*/
+.index2{
+	width: 300px;
+	margin-right:30px;
+	margin-left:-5px;
+	margin-top:5px;
+	border:2px solid #ED0304;
+	height: 345px;
+/*	border:2px solid #fff;*/
+}
+
+.index4{
+	width: 300px;
+	margin-right:30px;
+	margin-left:-5px;
+	margin-top:30px;
+	border:2px solid #ED0304;
+	height: 345px;
+/*	border:2px solid #fff;*/
+}
+
+.indexTabNew{
+	height: 300px;
+	/*background: #ccc;*/
+}
+
+
+.indexAdFocus{
+	margin-top: 10px;
+	height: 178px;
+	background: #ccc;
+}
+
+.indexTabRight .indexTabNewNav{
+	height: 35px;
+}
+
+.indexTabRight .indexTabNewNav ul{
+	list-style: none;
+}
+.indexTabRight .indexTabNewNav ul li{
+	float: left;
+	width: 133px;
+	height: 38px;
+	text-align: center;
+	border: 1px solid #ececec;
+	border-top-width: 2px;
+	font-size: 16px;
+	line-height: 38px;
+	color: #666;
+	background: #F9F9F9;
+	cursor: pointer;
+}
+
+.indexTabRight .indexTabNewNav ul li.active{
+	border-top-color:#c00;
+	background: #fff;
+	cursor: pointer;
+	color: #c00;
+
+}
+.TabPic2 p{
+	text-align: center;
+	font-family: Courier New;
+	margin-top: 15px;
+	color: #ED0304;
+	font-weight: bold;
+	font-size: 30px
+}
+
+.TablePic3 p{
+	color:#ED0304;
+	font-size: 16px;
+	margin-left:20px;
+
+}
+
+.serarch{
+	float: left;
+	margin-left:220px;
+	height: 22px;
+	border:none;
+	margin-top:5px;
+	position: relative;
+
+}
+
+.left-menu{
+	background-image: url(../img/cd.jpg);
+
+	z-index: 99;
+}
+.serarch2{
+	padding-right:10px; 
+	border-radius:5px;
+	background-image: url(../img/ser.jpg);
+	background-position: 140px 5px;
+	background-repeat: no-repeat;
+	color:#ccc;
+	/*backgroud:url(../img/ser.jpg) no-repeat scroll right;*/
+}
+.TabPrice2 p{
+	padding-left:200px;
+	color:#ED0304;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+.buy2{
+	padding-left: 200px;
+	color:#ED0304;
+	font-weight: bold;
+	font-size:17px;
+}
+
+.indexTabRight .indexTabNewCon{
+	height: 105px;
+	background: #fff;
+	display: none;
+}
+
+.indexTabRight .indexTabNewCon ul{
+	list-style: none;
+}
+
+.indexTabRight .indexTabNewCon ul li{
+	float: left;
+	width: 135px;
+	text-align: center;
+	line-height: 28px;
+	margin-top:5px;
+}
+
+.indexTabRight .indexTabNewCon ul li a:hover{
+	text-decoration: underline;/*添加下划线*/
+	color: #c66;
+	cursor: pointer;
+}
+
+.footer{
+	width: 1200px;
+	height: 150px;
+	/*border:2px solid #868383;*/
+	background-color: #ccc;
+	margin-top:0px;
+	margin-left:-930px;
+}
+
+.footer div{
+	padding-top:20px;
+	padding-left:40px;
+	color: #3A3A3A;
+}
+.footer div h4{
+	font-weight: bold;
+}
