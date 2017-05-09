@@ -512,14 +512,13 @@ body{
 	margin-left:220px;
 	height: 22px;
 	border:none;
-	margin-top:5px;
+	margin-top:10px;
 	position: relative;
 
 }
 
 .left-menu{
 	background-image: url(../img/cd.jpg);
-
 	z-index: 99;
 }
 .search2{
@@ -527,14 +526,14 @@ body{
 	border-radius:5px;
 	background-position: 140px 5px;
 	background-repeat: no-repeat;
-	color:#ccc;
+	color:#888;
 	padding-left: 5px;
 }
 input.icon-search {
     position: absolute;
     right: 0;
     bottom: -3px;
-    background: url(https://lrrhero2008.github.io/ebay-saveonmany/public/img/ser.jpg) 5px 4px no-repeat;
+    background: url(../img/ser.jpg) 5px 4px no-repeat;
     background-repeat: no-repeat;
     color: #ccc;
     width: 25px;
