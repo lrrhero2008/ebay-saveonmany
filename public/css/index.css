@@ -608,3 +608,12 @@ input.icon-search {
 
 .pagecontainer > table > tbody >tr > td > table:nth-of-type(3), .pagecontainer > table > tbody >tr > td > table:nth-of-type(1){display:none}
 .pagecontainer > table:nth-of-type(2){width:1200px;margin:0 auto;background:#fff}
+.indexTabCon table{display: block;}
+.indexTabCon tr{width:100%}
+.indexTabCon>table { float: left;border: 1px solid #ccc;box-shadow: 2px 2px 3px #ccc; margin-right: 15px;margin-bottom: 15px;width: 205px;}
+.indexTabCon .ttl.g-std {margin-bottom: 5px;line-height: 20px;}
+.indexTabCon .bin.g-b{color: #f33511;text-align:right;font-weight: bold;}
+.indexTabCon tbody{width: 100px;}
+.indexTabCon table .fixed img{margin-top: 8px;}
+.indexTabCon table .alert{color: #f33511;font-weight: bold;}
+.indexTabCon table .image{margin:0 auto}
