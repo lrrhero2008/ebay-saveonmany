@@ -156,6 +156,5 @@ $(function() {
 	//修改dom结构
 	$('body').addClass('saveonmany')
 	$('.div3').prepend($('.lev1'))
-	$('.indexTabBox').append($('.pview.rs-pview table.gallery'))
 
 });
