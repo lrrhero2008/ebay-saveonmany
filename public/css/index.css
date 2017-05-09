@@ -507,7 +507,7 @@ body{
 
 }
 
-.serarch{
+.search{
 	float: left;
 	margin-left:220px;
 	height: 22px;
@@ -522,14 +522,25 @@ body{
 
 	z-index: 99;
 }
-.serarch2{
+.search2{
 	padding-right:10px; 
 	border-radius:5px;
-	background-image: url(../img/ser.jpg);
 	background-position: 140px 5px;
 	background-repeat: no-repeat;
 	color:#ccc;
 	padding-left: 5px;
+}
+input.icon-search {
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    background: url(https://lrrhero2008.github.io/ebay-saveonmany/public/img/ser.jpg) 5px 4px no-repeat;
+    background-repeat: no-repeat;
+    color: #ccc;
+    width: 25px;
+    border: 0;
+    height: 25px;
+    cursor: pointer;
 }
 .TabPrice2 p{
 	padding-left:200px;
