@@ -154,6 +154,6 @@ $(function() {
 		$('.indexTabRight .indexTabNewCon').not($('.indexTabRight .indexTabNewCon').eq(idx)).hide(); /*其余的让他们隐藏*/
 	});
 	//修改dom结构
-	$('.div3').append($('.lev1'))
+	$('.div3').prepend($('.lev1'))
 
 });
