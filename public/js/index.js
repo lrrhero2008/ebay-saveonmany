@@ -153,5 +153,7 @@ $(function() {
 		$('.indexTabRight .indexTabNewCon').eq(idx).show(); /*然后他们里面第几个让他们显示*/
 		$('.indexTabRight .indexTabNewCon').not($('.indexTabRight .indexTabNewCon').eq(idx)).hide(); /*其余的让他们隐藏*/
 	});
+	//修改dom结构
+	$('.div3').append($('.lev1'))
 
 });
