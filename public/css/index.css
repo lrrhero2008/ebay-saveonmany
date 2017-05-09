@@ -158,8 +158,8 @@ body{
 	cursor:pointer;/*鼠标一划变成小手*/
 	/*color:#b61d1d;*/
 }
-.ppt .div3 ul.lev1 a{color:#ccc;}
-.ppt span.cnt{font-size:12px;color:#ccc;}
+.ppt .div3 ul.lev1 a{color:#888;}
+.ppt span.cnt{font-size:12px;}
 .ppt .right{
 	width: 400px;
 	height: 376px;
@@ -212,7 +212,7 @@ body{
 	bottom: 0px;
 	right: 50%;
 	margin-right: -75px;
-	z-index: 1px;
+	z-index: 1;
 	text-align: center;
 	line-height: 40px;
 	/*display: none;*/
@@ -225,9 +225,6 @@ body{
 .main .carousel .paging a.active{
 	font-weight: bold;
 
-}
-.main .carousel .paging a:hover{
-	font-weight: #FF3D00;
 }
 .main .carousel .paging a{
 	border-radius: 70%;
