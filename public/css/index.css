@@ -613,3 +613,5 @@ input.icon-search {
 .indexTabBox table .fixed img{margin-top: 8px;}
 .indexTabBox table .alert{color: #f33511;font-weight: bold;}
 .indexTabBox table .image{margin:0 auto} */
+
+.indexTabRight table.gallery table.fixed div.time2{padding-right:0;}
