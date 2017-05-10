@@ -655,13 +655,10 @@ input.icon-search {
 }
 .ppt .div3 .csslider > ul {
   position: relative;
-  width: 910px;
-  height: 420px;
+  width: 950px;
   z-index: 1;
   font-size: 0;
   line-height: 0;
-  background-color: #3A3A3A;
-  border: 10px solid #3A3A3A;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -670,7 +667,7 @@ input.icon-search {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.csslider > ul > li {
+.ppt .div3 .csslider > ul > li {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -688,6 +685,8 @@ input.icon-search {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   white-space: normal;
+  border: 0;
+  padding-left: 0;
 }
 .csslider > ul > li.scrollable {
   overflow-y: scroll;
@@ -765,12 +764,11 @@ input.icon-search {
 }
 .csslider > .arrows {
   position: absolute;
-  left: -31px;
+  left: 28px;
   top: 50%;
-  width: 100%;
+  width: 95%;
   height: 26px;
-  padding: 0 31px;
-  z-index: 0;
+  z-index: 2;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -786,10 +784,12 @@ input.icon-search {
   -o-transition: box-shadow 0.15s, margin 0.15s;
   -webkit-transition: box-shadow 0.15s, margin 0.15s;
   transition: box-shadow 0.15s, margin 0.15s;
+  opacity: 0.5
 }
 .csslider > .arrows label:hover {
   box-shadow: inset 3px -3px 0 2px #71ad37;
   margin: 0 0px;
+  opacity: 1
 }
 .csslider > .arrows label:before {
   content: '';

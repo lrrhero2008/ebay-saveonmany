@@ -122,5 +122,5 @@ $(function() {
 	  if(!$next.length) $next = $('#slider1 input[type=radio]').first();
 	  $next.prop('checked', true);
 	  
-	}, 2000);
+	}, 3500);
 });
