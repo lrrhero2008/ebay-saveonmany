@@ -112,7 +112,8 @@ $(function() {
 	$('body').addClass('saveonmany')
 	$('.div3').prepend($('.lev1'))
 	$('.indexTabBox').append($('#CentralArea'))
-	$('.indexTabRight').append($(' #LeftPanel, .v4topleft>table, .v4topright>table'))
+	$('.indexTabRight').append($('.v4topleft>table, .v4topright>table'))
+	$('.indexTabRight').prepend($('#LeftPanel'))
 
 
 });
