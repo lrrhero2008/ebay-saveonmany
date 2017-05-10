@@ -578,10 +578,7 @@ input.icon-search {
 .footer{
 	width: 1200px;
 	height: 150px;
-	/*border:2px solid #868383;*/
 	background-color: #ccc;
-	margin-top:0px;
-	margin-left:-930px;
 }
 
 .footer div{
@@ -591,8 +588,9 @@ input.icon-search {
 }
 .footer div h4{
 	font-weight: bold;
+	margin-bottom: 10px;
 }
-
+.footer p{line-height: 26px}
 .clear {
     clear: both;
     line-height: 0;
