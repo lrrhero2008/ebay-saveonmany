@@ -609,7 +609,7 @@ input.icon-search {
 .indexTabRight table.v4midBox tr.v4acp_mid td.v4mid{padding:5px 10px 5px 10px;}
 .indexTabRight table.v4ilistlr td.picture{display: block;height:auto;}
 .indexTabRight table.v4ilistlr td.details{display: block}
-.saveonmany .bin.g-b{color:#f00;font-weight:bold;}
+.saveonmany .bin.g-b, .saveonmany .bid.g-b{color:#f00;}
 /*css slider*/
 .csslider {
   -moz-perspective: 1300px;
