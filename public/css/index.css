@@ -314,14 +314,11 @@ body{
 }
 .indexTabBox{
 	float: left;
-	height: 500px;
 	width: 920px;
-	/*background: #ccc;*/
 }
 
 .indexTabSize{
 	float:left;
-	/*padding-right:20px;*/
 }
 .indexTabCon ul li{
 	margin-right:40px;
