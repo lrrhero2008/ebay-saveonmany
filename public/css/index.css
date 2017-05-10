@@ -610,7 +610,7 @@ input.icon-search {
 .pagecontainer > table:nth-of-type(2){width:1200px;margin:0 auto;background:#fff}
 .indexTabBox table{display: block;}
 .indexTabBox tr{width:100%}
-.indexTabBox>table { float: left;border: 1px solid #ccc;box-shadow: 2px 2px 3px #ccc; margin-right: 15px;margin-bottom: 15px;width: 205px;}
+.indexTabBox>table {float: left;border: 1px solid #ccc;box-shadow: 2px 2px 3px #ccc; margin-right: 15px;margin-bottom: 15px;width: 205px;}
 .indexTabBox .ttl.g-std {margin-bottom: 5px;line-height: 20px;}
 .indexTabBox .bin.g-b{color: #f33511;text-align:right;font-weight: bold;}
 .indexTabBox tbody{width: 100px;}
