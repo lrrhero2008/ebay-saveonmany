@@ -608,7 +608,7 @@ input.icon-search {
 
 .pagecontainer > table > tbody >tr > td > table:nth-of-type(3), .pagecontainer > table > tbody >tr > td > table:nth-of-type(1){display:none}
 .pagecontainer > table:nth-of-type(2){width:1200px;margin:0 auto;background:#fff}
-.indexTabBox table{display: block;}
+/* .indexTabBox table{display: block;}
 .indexTabBox tr{width:100%}
 .indexTabBox>table {float: left;border: 1px solid #ccc;box-shadow: 2px 2px 3px #ccc; margin-right: 15px;margin-bottom: 15px;width: 205px;}
 .indexTabBox .ttl.g-std {margin-bottom: 5px;line-height: 20px;}
@@ -616,4 +616,4 @@ input.icon-search {
 .indexTabBox tbody{width: 100px;}
 .indexTabBox table .fixed img{margin-top: 8px;}
 .indexTabBox table .alert{color: #f33511;font-weight: bold;}
-.indexTabBox table .image{margin:0 auto}
+.indexTabBox table .image{margin:0 auto} */
