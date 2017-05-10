@@ -115,5 +115,12 @@ $(function() {
 	$('.indexTabRight').append($('.v4topleft>table, .v4topright>table'))
 	$('.indexTabRight').append($('#LeftPanel'))
 
-
+	//css slider control
+	setInterval(function() {
+	  var $curr = $('#slider1 input[type=radio]:checked');  
+	  var $next = $curr.next('input');
+	  if(!$next.length) $next = $('#slider1 input[type=radio]').first();
+	  $next.prop('checked', true);
+	  
+	}, 2000);
 });
