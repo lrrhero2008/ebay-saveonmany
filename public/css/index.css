@@ -606,7 +606,7 @@ input.icon-search {
 .indexTabBox table .image{margin:0 auto} */
 
 .indexTabRight table.gallery table.fixed div.time2{padding-right:0;}
-.indexTabRight table.v4midBox tr.v4acp_mid td.v4mid{padding:5px 10px 5px 5px;}
+.indexTabRight table.v4midBox tr.v4acp_mid td.v4mid{padding:5px 5px 5px 10px;}
 .indexTabRight table.v4ilistlr td.picture{display: block;height:auto;}
 .indexTabRight table.v4ilistlr td.details{display: block}
 .saveonmany .bin.g-b, .saveonmany .bid.g-b{color:#f00;}
