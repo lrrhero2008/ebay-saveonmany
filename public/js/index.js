@@ -1,50 +1,5 @@
 $(function() {
-	// 顶上的小三角效果
-	$('.main-right .jiuxian').mouseenter(function() {
-		$(this).find('.myjiu').css({
-			'transform': 'rotate(180deg)',
-			'margin-left': '-1px',
-			'margin-top': '10px'
-		});
-		$(this).find('.jiuxiantop').css({
-			'background': '#fff'
-		});
-		$(this).find('.mydropdown').show();
-	});
-
-	//酒仙下滑小三角
-	$('.main-right .jiuxian').mouseleave(function() {
-		$(this).find('.myjiu').css({
-			'transform': 'rotate(0deg)',
-			'margin-left': '5px',
-			'margin-top': '2px'
-		});
-		// $(this).find('.jiuxiantop').css({'background':'#fff'});
-		$(this).find('.jiuxiantop').css({
-			'background': '#F2F2F2'
-		});
-		$(this).find('.mydropdown').hide();
-	});
-
-
-	// 左侧导航
-	$('.div3 .left-menu').mouseenter(function() {
-		$(this).css({
-			// 'background': '#eee'
-		});
-		// $('.div3 li').not($(this)).css({'background':'#b61d1d'});
-
-		$(this).find('.right').show();
-		$('.right').not($(this).find('.right')).hide();
-	});
-	$('.div3 .left-menu').mouseleave(function() {
-		$(this).find('.right').hide();
-		$(this).css({
-			// 'background': '#fff'
-		})
-
-	});
-
+	
 	// 幻灯片
 	(function() {
 		$(".main .paging").show();
@@ -156,7 +111,8 @@ $(function() {
 	//修改dom结构
 	$('body').addClass('saveonmany')
 	$('.div3').prepend($('.lev1'))
-	//$('.indexTabBox').append($('.pview.rs-pview table.gallery'))
+	$('.indexTabBox').append($('#CentralArea'))
+	$('.indexTabRight').append($('.v4topleft>table, .v4topright>table'))
 
 
 });
