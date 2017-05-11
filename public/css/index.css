@@ -842,3 +842,11 @@ input.icon-search {
   -webkit-transform: rotate(225deg);
   transform: rotate(225deg);
 }
+
+table.gallery table.fixed td {
+    float: left;
+}
+
+table.gallery table.fixed td:last-child {
+    float: right;
+}
