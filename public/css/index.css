@@ -843,6 +843,7 @@ input.icon-search {
   transform: rotate(225deg);
 }
 
+table.gallery table.fixed {width:100%;}
 table.gallery table.fixed td {
     float: left;
 }
