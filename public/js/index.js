@@ -23,6 +23,11 @@ $(function() {
 	$('ul.lev2').each(function(){
 		$(this).prev('li').append($(this))
 	})
+	$(".lev1").menuAim({
+		activate: activateSubmenu,
+		deactivate: deactivateSubmenu,
+		rowSelector:">li"
+	});
 	//修改dom结构
 	$('body').addClass('saveonmany')
 	$('.div3').prepend($('.lev1'))
