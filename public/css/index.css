@@ -877,19 +877,12 @@ table.gallery table.fixed td:last-child {
     display: block;
 }
 
-.ppt .lev1 span.cnt:after {
-    position: absolute;
-    content: "›";
-    right: 10px;
-    color: #888;
-    font-size:18px
-}
 
 .ppt .lev1 > li:hover span.cnt:after {
     color: red;
     position: absolute;
     content: "›";
     right: 10px;
-    color: #888;
+    color: red;
     font-size:18px
 }
