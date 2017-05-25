@@ -851,3 +851,22 @@ table.gallery table.fixed td {
 table.gallery table.fixed td:last-child {
     float: right;
 }
+
+.ppt ul.lev2 {
+    position: absolute;
+    display: none;
+    left: 250px;
+    z-index: 1;
+    background: #ccc;
+    width: 550px;
+    top: 0;
+}
+
+.ppt ul.lev2 li {
+    width: 45%;
+    float: left;
+}
+
+.ppt ul.lev1 {
+    position: relative;
+}
