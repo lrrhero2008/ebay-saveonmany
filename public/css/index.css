@@ -870,3 +870,6 @@ table.gallery table.fixed td:last-child {
 .ppt ul.lev1 {
     position: relative;
 }
+.ppt ul.lev1 li:hover > .lev2 {
+    display: block;
+}
