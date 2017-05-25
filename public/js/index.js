@@ -19,6 +19,14 @@ $(function() {
 		$('.indexTabRight .indexTabNewCon').eq(idx).show(); /*然后他们里面第几个让他们显示*/
 		$('.indexTabRight .indexTabNewCon').not($('.indexTabRight .indexTabNewCon').eq(idx)).hide(); /*其余的让他们隐藏*/
 	});
+
+	//修改dom结构
+	$('body').addClass('saveonmany')
+	$('.div3').prepend($('.lev1'))
+	$('.indexTabBox').append($('#CentralArea'))
+	$('.indexTabRight').append($('.v4topleft>table, .v4topright>table'))
+	$('.indexTabRight').append($('#LeftPanel'))
+
 	//菜单栏
 	$('ul.lev2').each(function(){
 		$(this).prev('li').append($(this))
@@ -28,13 +36,6 @@ $(function() {
 		deactivate: deactivateSubmenu,
 		rowSelector:">li"
 	});
-	//修改dom结构
-	$('body').addClass('saveonmany')
-	$('.div3').prepend($('.lev1'))
-	$('.indexTabBox').append($('#CentralArea'))
-	$('.indexTabRight').append($('.v4topleft>table, .v4topright>table'))
-	$('.indexTabRight').append($('#LeftPanel'))
-
 	//css slider control
 	setInterval(function() {
 	  var $curr = $('#slider1 input[type=radio]:checked');  
