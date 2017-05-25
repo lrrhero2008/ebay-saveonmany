@@ -147,8 +147,8 @@ body{
 	border-bottom: none;
 }
 
-.ppt .div3 ul li:hover{/
-
+.ppt .div3 ul li:hover{
+	background: #ccc;
 	cursor:pointer;
 }
 .ppt .div3 ul.lev1 a{color:#888;}
