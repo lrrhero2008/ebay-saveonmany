@@ -873,3 +873,15 @@ table.gallery table.fixed td:last-child {
 .ppt ul.lev1 li:hover > .lev2 {
     display: block;
 }
+
+.ppt span.cnt:after {
+    position: absolute;
+    content: "›";
+    right: 10px;
+    color: #888;
+    font-size:18px
+}
+
+.ppt .lev1 li:hover span.cnt:after {
+    color: red;
+}
