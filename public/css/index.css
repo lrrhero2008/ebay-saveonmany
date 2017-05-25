@@ -862,6 +862,7 @@ table.gallery table.fixed td:last-child {
     background: #ccc;
     width: 550px;
     top: 0;
+    height: 100%;
 }
 
 .ppt ul.lev2 li {
