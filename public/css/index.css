@@ -136,7 +136,7 @@ body{
 .ppt .div3 ul{
 	list-style: none;/*去掉前面的小点*/
 	float: left;
-	width: 250px
+	width: 260px
 }
 .ppt .div3 ul li{
 	color:#EB1F1E;
@@ -178,7 +178,7 @@ body{
 /*幻灯片样式*/
 .main .carousel{
 	height: 376px;
-	width: 950px;
+	width: 939px;
 	float: right;
 	background: #f9f9f9;
 }
@@ -189,7 +189,7 @@ body{
 }
 .main .carousel .window {
 	height:360px;
-	width: 950px;
+	width: 939px;
 	overflow: hidden;
 	position: relative;	
 }
@@ -504,7 +504,7 @@ body{
 	margin-left:220px;
 	height: 22px;
 	border:none;
-	margin-top:10px;
+	margin-top:7px;
 	position: relative;
 
 }
@@ -519,12 +519,14 @@ body{
 	background-position: 140px 5px;
 	background-repeat: no-repeat;
 	color:#888;
-	padding-left: 5px;
+	padding: 2px 5px;
+	width: 250px;
+	line-height: 24px;
 }
 input.icon-search {
     position: absolute;
     right: 0;
-    bottom: -3px;
+    bottom: -5px;
     background: url(../img/ser.jpg) 5px 4px no-repeat;
     background-repeat: no-repeat;
     color: #ccc;
@@ -656,7 +658,7 @@ input.icon-search {
 }
 .ppt .div3 .csslider > ul {
   position: relative;
-  width: 950px;
+  width: 939px;
   z-index: 1;
   font-size: 0;
   line-height: 0;
@@ -855,7 +857,7 @@ table.gallery table.fixed td:last-child {
 .ppt ul.lev2 {
     position: absolute;
     display: none;
-    left: 250px;
+    left: 260px;
     z-index: 1;
     background: #ccc;
     width: 550px;
@@ -882,6 +884,11 @@ table.gallery table.fixed td:last-child {
     font-size:18px
 }
 
-.ppt .lev1 li:hover span.cnt:after {
+.ppt .lev1 > li:hover span.cnt:after {
     color: red;
+    position: absolute;
+    content: "›";
+    right: 10px;
+    color: #888;
+    font-size:18px
 }
