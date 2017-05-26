@@ -26,7 +26,7 @@ $(function() {
     function deactivateSubmenu(row) {
       var idx = $(row).index();
       $('.lev1').each(function(){
-        $(this).find('li').removeClass('hover')
+        $(this).children('li').removeClass('hover')
         $(this).find('ul.lev2').hide()
       })
     }
