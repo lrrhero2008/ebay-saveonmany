@@ -55,11 +55,22 @@ $(function() {
 		$row.removeClass('hover');
 	}
 	//css slider control
-	setInterval(function() {
-	  var $curr = $('#slider1 input[type=radio]:checked');  
+	// setInterval(function() {
+	//   var $curr = $('#slider1 input[type=radio]:checked');  
+	//   var $next = $curr.next('input');
+	//   if(!$next.length) $next = $('#slider1 input[type=radio]').first();
+	//   $next.prop('checked', true);
+	  
+	// }, 3500);
+	$('.carousel').hover(function(ev){
+	    clearInterval(timer);
+		}, function(ev){
+		    timer = setInterval( showDiv, 3500);
+	});
+	function showDiv(){
+	 var $curr = $('#slider1 input[type=radio]:checked');  
 	  var $next = $curr.next('input');
 	  if(!$next.length) $next = $('#slider1 input[type=radio]').first();
-	  $next.prop('checked', true);
-	  
-	}, 3500);
+	  $next.prop('checked', true);	
+	}
 });
