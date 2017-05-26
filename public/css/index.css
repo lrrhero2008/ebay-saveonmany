@@ -858,15 +858,11 @@ table.gallery table.fixed td:last-child {
     left: 260px;
     z-index: 1;
     background: #fff;
-    width: 550px;
+    width: 100%;
     top: 0;
-    height: 100%;
+    min-height: 100%;
 }
 
-.ppt ul.lev2 li {
-    width: 45%;
-    float: left;
-}
 
 .ppt ul.lev1 {
     position: relative;
