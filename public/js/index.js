@@ -53,7 +53,7 @@ $(function() {
 		var $row = $(row),
 			$submenu = $row.children('ul');
 
-		$row.find('a').removeClass('hover');
+		$row.removeClass('hover');
 		$submenu.css('display', 'none');
 	}
 	//css slider control
