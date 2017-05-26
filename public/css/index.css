@@ -885,6 +885,8 @@ table.gallery table.fixed td:last-child {
     color: red;
     font-size:18px
 }
+.ppt .lev1 >li.hover ul.lev2{display: block}
+
 .ppt ul.lev1 > li {
     padding-left: 36px;
     border-bottom: 1px solid #fff;

@@ -12,7 +12,7 @@ $(function() {
 	})
 	$(".lev1").mouseleave(function(){
       $(this).find('li').removeClass('hover')
-      $(this).find('ul.lev2').hide()
+      
     })
 	$(".lev1").menuAim({
 		activate: activateSubmenu,
@@ -23,7 +23,7 @@ $(function() {
       var idx = $(row).index();
       $('.lev1').each(function(){
         $(this).children('li').eq(idx).addClass('hover')
-        $(this).find('ul.lev2').eq(idx).show()
+        
       })
     }
 
@@ -31,7 +31,7 @@ $(function() {
       var idx = $(row).index();
       $('.lev1').each(function(){
         $(this).children('li').removeClass('hover')
-        $(this).find('ul.lev2').hide()
+        
       })
     }
 	//css slider control
