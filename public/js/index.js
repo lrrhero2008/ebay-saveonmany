@@ -45,7 +45,7 @@ $(function() {
 		var $row = $(row),
 	      $submenu = $row.children('ul');
 
-		$row.children('a').addClass('hover');
+		$row.addClass('hover');
 		$submenu.css({display: 'block'});
 	}
 
