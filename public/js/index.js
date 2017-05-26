@@ -46,7 +46,6 @@ $(function() {
 	      $submenu = $row.children('ul');
 
 		$row.addClass('hover');
-		$submenu.css({display: 'block'});
 	}
 
 	function deactivateSubmenu(row) {
@@ -54,7 +53,6 @@ $(function() {
 			$submenu = $row.children('ul');
 
 		$row.removeClass('hover');
-		$submenu.css('display', 'none');
 	}
 	//css slider control
 	setInterval(function() {
