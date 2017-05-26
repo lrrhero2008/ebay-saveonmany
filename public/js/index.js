@@ -15,6 +15,21 @@ $(function() {
 		deactivate: deactivateSubmenu,
 		rowSelector:">li"
 	});
+	function activateSubmenu(row) {
+      var idx = $(row).index();
+      $('.lev1').each(function(){
+        $(this).find('li').eq(idx).addClass('hover')
+        $(this).find('ul.lev2').eq(idx).show()
+      })
+    }
+
+    function deactivateSubmenu(row) {
+      var idx = $(row).index();
+      $('.lev1').each(function(){
+        $(this).find('li').removeClass('hover')
+        $(this).find('ul.lev2').hide()
+      })
+    }
 	//css slider control
 	setInterval(function() {
 	  var $curr = $('#slider1 input[type=radio]:checked');  

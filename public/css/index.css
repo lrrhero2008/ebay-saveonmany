@@ -877,11 +877,6 @@ table.gallery table.fixed td:last-child {
     border-bottom: 1px solid #fff;
 }
 
-.ppt ul.lev1 li:hover > .lev2 {
-    display: block;
-}
-
-
 .ppt .lev1 > li:hover > span.cnt:after {
     position: absolute;
     content: "›";
