@@ -878,7 +878,7 @@ table.gallery table.fixed td:last-child {
     border-bottom: 1px solid #fff;
 }
 
-.ppt .lev1 > li:hover > span.cnt:after {
+.ppt .lev1 > li.hover > span.cnt:after {
     position: absolute;
     content: "›";
     right: 5px;
