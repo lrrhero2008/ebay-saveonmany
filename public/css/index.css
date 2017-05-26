@@ -896,5 +896,5 @@ table.gallery table.fixed td:last-child {
     font-size: 13px;
     color: #555;
 }
-.ppt .lev1 >li.hover ul.lev2:hover ul.lev3 {display: block}
+.ppt .lev1 >li.hover ul.lev2 >li:hover ul.lev3 {display: block}
 ul.lev3 {position: absolute; display: none; left: 260px; z-index: 1; background: #fff; width: 550px;top: 0;height: 100%;}

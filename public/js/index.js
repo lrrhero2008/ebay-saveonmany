@@ -7,7 +7,7 @@ $(function() {
 	$('.indexTabRight').append($('#LeftPanel'))
 
 	//菜单栏
-	$('ul.lev2').each(function(){
+	$('ul.lev2, ul.lev3').each(function(){
 		$(this).prev('li').append($(this))
 	})
 	$(".lev1").mouseleave(function(){
