@@ -14,14 +14,14 @@ $(function() {
       $(this).find('li').removeClass('hover')
       
     })
-	$(".lev1").menuAim({
+	$(".lev1, .lev2").menuAim({
 		activate: activateSubmenu,
 		deactivate: deactivateSubmenu,
 		rowSelector:">li"
 	});
 	function activateSubmenu(row) {
       var idx = $(row).index();
-      $('.lev1').each(function(){
+      $('.lev1, .lev2').each(function(){
         $(this).children('li').eq(idx).addClass('hover')
         
       })
@@ -29,7 +29,7 @@ $(function() {
 
     function deactivateSubmenu(row) {
       var idx = $(row).index();
-      $('.lev1').each(function(){
+      $('.lev1, .lev2').each(function(){
         $(this).children('li').removeClass('hover')
         
       })
