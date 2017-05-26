@@ -10,6 +10,10 @@ $(function() {
 	$('ul.lev2').each(function(){
 		$(this).prev('li').append($(this))
 	})
+	$(".lev1").mouseleave(function(){
+      $(this).find('li').removeClass('hover')
+      $(this).find('ul.lev2').hide()
+    })
 	$(".lev1").menuAim({
 		activate: activateSubmenu,
 		deactivate: deactivateSubmenu,
@@ -18,7 +22,7 @@ $(function() {
 	function activateSubmenu(row) {
       var idx = $(row).index();
       $('.lev1').each(function(){
-        $(this).find('li').eq(idx).addClass('hover')
+        $(this).children('li').eq(idx).addClass('hover')
         $(this).find('ul.lev2').eq(idx).show()
       })
     }
