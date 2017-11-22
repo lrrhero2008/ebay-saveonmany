@@ -867,7 +867,6 @@ table.gallery table.fixed td:last-child {
 .ppt ul.lev1 {
     position: relative;
     background: #ddd;
-    height: 376px;
 }
 
 .ppt ul.lev1 > li {
