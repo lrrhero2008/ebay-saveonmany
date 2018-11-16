@@ -189,11 +189,11 @@ body{
 	height:360px;
 	width: 939px;
 	overflow: hidden;
-	position: relative;	
+	position: relative;
 }
 .main .carousel .image_reel{
 	position: absolute;
-	top: 0px; 
+	top: 0px;
 	left: 0px;
 }
 .main .carousel .image_reel img{
@@ -277,7 +277,7 @@ body{
 	float: left;
 	width: 100px;
 	text-align: center;
-	
+
 }
 .ppt .div3 .right-left .menuItemCon{
 	float:left;
@@ -301,7 +301,7 @@ body{
 
 .ppt .div3 .right-right img{
 	display: block; /*防边距5px*/
-	
+
 }
 .content{
 	margin-top: 10px;
@@ -366,7 +366,7 @@ body{
 	text-align: center;
 	margin-left:5px;
 	/*//text-overflow:ellipsis;/*变成小...*/*/
-	
+
 }
 .indexTabBoxBottom .indexTabTit a{
 	font-size: 18px;
@@ -512,7 +512,7 @@ body{
 	z-index: 99;
 }
 .search2{
-	padding-right:10px; 
+	padding-right:10px;
 	border-radius:5px;
 	background-position: 140px 5px;
 	background-repeat: no-repeat;
@@ -689,6 +689,7 @@ input.icon-search {
   border: 0;
   padding-left: 0;
 }
+.ppt .div3 .csslider > ul > li img{max-width: 100%}
 .csslider > ul > li.scrollable {
   overflow-y: scroll;
 }
