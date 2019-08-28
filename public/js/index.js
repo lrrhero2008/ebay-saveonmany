@@ -62,6 +62,10 @@ $(function() {
 	//   $next.prop('checked', true);
 
 	// }, 3500);
-	$('.carousel-control-prev').carousel('prev')
-	$('.carousel-control-next').carousel('next')
+	$(".carousel-control-prev").click(function(){
+	  $("#carouselExampleIndicators").carousel("prev");
+	});
+	$(".carousel-control-next").click(function(){
+	  $("#carouselExampleIndicators").carousel("next");
+	});
 });
