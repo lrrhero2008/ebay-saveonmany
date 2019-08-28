@@ -12,7 +12,7 @@ $(function() {
 	})
 	$(".lev1").mouseleave(function(){
       $(this).find('li').removeClass('hover')
-      
+
     })
 	// $(".lev1").menuAim({
 	// 	activate: activateSubmenu,
@@ -23,7 +23,7 @@ $(function() {
  //      var idx = $(row).index();
  //      $('.lev1').each(function(){
  //        $(this).children('li').eq(idx).addClass('hover')
-        
+
  //      })
  //    }
 
@@ -31,11 +31,11 @@ $(function() {
  //      var idx = $(row).index();
  //      $('.lev1').each(function(){
  //        $(this).children('li').removeClass('hover')
-        
+
  //      })
  //    }
 
-    var $menu = $('.ppt .div3 ul');
+  var $menu = $('.ppt .div3 ul');
 	$menu.menuAim({
 		activate: activateSubmenu,
 		deactivate: deactivateSubmenu
@@ -56,21 +56,11 @@ $(function() {
 	}
 	//css slider control
 	// setInterval(function() {
-	//   var $curr = $('#slider1 input[type=radio]:checked');  
+	//   var $curr = $('#slider1 input[type=radio]:checked');
 	//   var $next = $curr.next('input');
 	//   if(!$next.length) $next = $('#slider1 input[type=radio]').first();
 	//   $next.prop('checked', true);
-	  
+
 	// }, 3500);
-	$('.carousel').hover(function(ev){
-	    clearInterval(timer);
-		}, function(ev){
-		    timer = setInterval( showDiv, 3500);
-	});
-	function showDiv(){
-	 var $curr = $('#slider1 input[type=radio]:checked');  
-	  var $next = $curr.next('input');
-	  if(!$next.length) $next = $('#slider1 input[type=radio]').first();
-	  $next.prop('checked', true);	
-	}
+	$('.carousel').carousel()
 });
