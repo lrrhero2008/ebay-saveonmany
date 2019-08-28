@@ -62,5 +62,6 @@ $(function() {
 	//   $next.prop('checked', true);
 
 	// }, 3500);
-	$('.carousel').carousel()
+	$('.carousel-control-prev').carousel('prev')
+	$('.carousel-control-next').carousel('next')
 });
