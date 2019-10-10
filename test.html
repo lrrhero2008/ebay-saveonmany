@@ -28,24 +28,24 @@
   </style>
 </head>
 <body>
-  <div id='call-button'>test open app</div>
+  <div id='call-button'>点击唤起电流App个人页</div>
 
   <script src='https://unpkg.com/callapp-lib@2.1.7/dist/index.umd.js'></script>
   <script>
     const option = {
-        scheme: {
-          protocol: 'shopperplus',
-        },
-        intent: {
-          package: 'com.shopperplus.saleapp',
-          scheme: 'shopperplus',
-        },
+      scheme: {
+        protocol: 'shopperplus',
+      },
+      intent: {
+        package: 'com.shopperplus.saleapp',
+        scheme: 'shopperplus',
+      },
 
-        appstore: 'https://apps.apple.com/app/apple-store/id960932967',
-        yingyongbao: 'https://play.google.com/store/apps/details?id=com.shopperplus.saleapp&referrer=utm_source%3DPC%2520Website%26utm_medium%3Dintroduction%2520page%26utm_campaign%3DApp',
-        fallback: '/apps',
-        timeout: 3000,
-    },
+      appstore: 'https://apps.apple.com/app/apple-store/id960932967',
+      yingyongbao: 'https://play.google.com/store/apps/details?id=com.shopperplus.saleapp&referrer=utm_source%3DPC%2520Website%26utm_medium%3Dintroduction%2520page%26utm_campaign%3DApp',
+      fallback: '/apps',
+      timeout: 3000,
+    };
     const lib = new CallApp(option);
     const callButton = document.querySelector('#call-button');
 
@@ -60,11 +60,11 @@
     // outChain 很少有同学会使用到，所以更方便大家理解
 
     // ykshortvideo://profile
-    console.log(lib.generateScheme({path: 'profile'}));
+    console.log(lib.generateScheme({path: 'products/358389'}));
     // intent://profile#Intent;package=com.youku.shortvideo;scheme=ykshortvideo;S.browser_fallback_url=https%3A%2F%2Fdianliu.youku.com%2Fservice%2Fdownload;end;
-    console.log(lib.generateIntent({path: 'profile'}));
+    console.log(lib.generateIntent({path: 'products/358389'}));
     // https://flash-link.youku.com?action=profile
-    console.log(lib.generateUniversalLink({path: 'profile'}));
+    console.log(lib.generateUniversalLink({path: 'products/358389'}));
   </script>
 </body>
 </html>
